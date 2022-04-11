@@ -14,7 +14,7 @@ Deletes the password authentication method
 
 `DELETE /settings/auth/password`
 
-Sets a new password of your choice (Remember your new password please!)
+Sets a new password of your choice (Make sure to remember your new password!)
 
 `PUT /settings/auth/password`
 
@@ -38,10 +38,10 @@ Removes the recovery email you set
 
 `DELETE /settings/email`
 
-Sets a recovery email for your account and if you already have one set, changes it instead
+Sets a recovery email for your account. If one has already been set, you can change it instead
 
 `PUT /settings/email`
 
-Sends a email to reset a user's password
+Sends an email to reset a user's password
 
 `POST /settings/password-reset`
