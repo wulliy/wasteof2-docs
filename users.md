@@ -1,8 +1,8 @@
-Get user's profile and information
+Gets a user's profile and information
 
 `GET /users/jeffalo`
 
-Get user's followers. (You can get the amount of followers through the `stats.followers` key)
+Gets a user's followers. (You can get the amount of followers through the `stats.followers` key)
 
 `GET /users/jeffalo/followers`
 
@@ -18,7 +18,7 @@ Gets a user's profile picture.
 
 `GET /users/jeffalo/picture`
 
-Gets a user's banner. (Shows blank if no banner set)
+Gets a user's banner. (Appears blank if no banner was set)
 
 `GET /users/wasteof.money/banner`
 
@@ -34,15 +34,15 @@ Gets the feed of an user
 
 `GET /users/jeffalo/following/posts`
 
-Follow a user.
+Follows a user.
 
 `POST /users/jeffalo/followers`
 
-Set a bio. Could've done a `/users/bio` though, but oh well.
+Sets a bio.
 
 `PUT /users/jeffalo/bio`
 
-Sets a new username for you. As long as it's not taken.
+Sets a new username for you. As long as it's available.
 
 `PUT /users/jeffalo/name`
 
