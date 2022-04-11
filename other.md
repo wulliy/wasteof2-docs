@@ -4,4 +4,4 @@ Get the username from an user's ID.
 
 Sees if an username is available or not.
 
-`GET /username-available?username=jefffalo`
+`GET /username-available?username=jeffalo`
