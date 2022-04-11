@@ -2,11 +2,11 @@ Gets all of your read messages.
 
 `GET /messages/read`
 
-Gets all of your unread messages. You should really check those man.
+Gets all of your unread messages.
 
 `GET /messages/unread`
 
-Gets the count of all of your messages.
+Gets your total message count.
 
 `GET /messages/count`
 
