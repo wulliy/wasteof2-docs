@@ -1,7 +1,7 @@
-Logs into wasteof with Github.
+Logs into wasteof2 with Github.
 
-`GET /sessions/ouath/github/url`
+`GET /sessions/oauth/github/url`
 
-Logs into wasteof with Google. (This one took a bit to implement)
+Logs into wasteof2 with Google. (fun fact: this one was harder to implement)
 
-`GET /sessions/ouath/google/url`
+`GET /sessions/oauth/google/url`
