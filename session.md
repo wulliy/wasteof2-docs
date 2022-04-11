@@ -10,6 +10,6 @@ Logs you into an account.
 
 `POST /session`
 
-Logs you out of the current logged in account.
+Logs you out of the currently logged in account.
 
 `DELETE /session`
