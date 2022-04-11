@@ -1,8 +1,8 @@
-Gets a user's profile and information
+Gets an user's profile and information
 
 `GET /users/jeffalo`
 
-Gets a user's followers. (You can get the amount of followers through the `stats.followers` key)
+Gets an user's followers. (You can get the amount of followers through the `stats.followers` key)
 
 `GET /users/jeffalo/followers`
 
@@ -10,19 +10,19 @@ Get the users that a certain user is following. (You can get the amount of peopl
 
 `GET /users/jeffalo/following`
 
-See if a user is following another user.
+See if an user is following another user.
 
 `GET /users/jeffalo/followers/jeffolo`
 
-Gets a user's profile picture.
+Gets an user's profile picture.
 
 `GET /users/jeffalo/picture`
 
-Gets a user's banner. (Appears blank if no banner was set)
+Gets an user's banner. (Appears blank if no banner was set)
 
 `GET /users/wasteof.money/banner`
 
-Gets a user's posts per page.
+Gets an user's posts per page.
 
 `GET /users/jeffalo/posts?page=1`
 
@@ -34,7 +34,7 @@ Gets the feed of an user
 
 `GET /users/jeffalo/following/posts`
 
-Follows a user.
+Follows an user.
 
 `POST /users/jeffalo/followers`
 
