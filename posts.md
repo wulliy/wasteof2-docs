@@ -16,6 +16,9 @@ Requirements:
 - Your post should only contain `["p", "b", "strong", "i", "em", "u", "s", "li", "ul", "ol", "mark", "code", "blockquote", "pre", "img", "#text"]`
 - The image src should only be from `["api.wasteof.money", "u.cubeupload.com", "i.ibb.co"]`
 
+Optional:
+- Adding in a `repost` argument, followed with a post id allows you to repost posts
+
 `POST /posts`
 
 Edits a post. Requires your token in the `Authorization` header.
