@@ -1,4 +1,4 @@
-Gets all of an user's wall comments depending on the page number.
+Gets all of an user's wall comments on a page.
 
 `GET /users/jeffalo/wall?page=1`
 
