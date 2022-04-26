@@ -9,3 +9,5 @@ in front of you
 
 # thanks
 no problem
+
+(btw check out the new, *work in progress*, [wasteof3 documentation](https://github.com/wulliy/wasteof3-docs))
