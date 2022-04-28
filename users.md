@@ -1,4 +1,4 @@
-Gets an user's profile and information
+Gets an user's profile and information.
 
 `GET /users/jeffalo`
 
@@ -14,7 +14,7 @@ See if an user is following another user.
 
 `GET /users/jeffalo/followers/jeffolo`
 
-Gets an user's profile picture.
+Gets an user's profile picture. (If the user doesn't exist, it will return a generated SVG profile picture instead)
 
 `GET /users/jeffalo/picture`
 
@@ -30,7 +30,7 @@ Gets the name of an user?
 
 `GET /users/jeffalo/name`
 
-Gets the feed of an user
+Gets the feed of an user.
 
 `GET /users/jeffalo/following/posts`
 
