@@ -36,30 +36,30 @@ Deletes any comment in a post of yours.
 
 `DELETE /comments/60c4d33f1ea77fed94251ab7/`
 
-Pins any post of yours
+Pins any post of yours.
 
 `POST /posts/60c4d33f1ea77fed94251ab7/pin`
 
-Unpins any post of yours
+Unpins any post of yours.
 
 `POST /posts/60c4d33f1ea77fed94251ab7/unpin`
 
-Reports any post on wasteof
+Reports any post.
 
 ```
 POST /posts/612b7b3f1148ae87a61ab063/report
 BODY {type: "none", reason: "they took my lunch money"}
 ```
 
-Loves / Unloves any post on wasteof2
+Loves / Unloves any post on wasteof2.
 
 `POST /posts/612b7b3f1148ae87a61ab063/love`
 
-See if an user loved a post or not
+See if an user loved a post or not.
 
 `GET /posts/612b7b3f1148ae87a61ab063/loves/jeffalo`
 
-Reposts an post
+Reposts an post. (The `repost` argument must be a vaild post ID)
 
 ```
 POST /posts
