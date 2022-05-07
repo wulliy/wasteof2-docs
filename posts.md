@@ -15,6 +15,7 @@ Makes a new post with any text you input.
 Requirements:
 - Your post should only contain `["p", "b", "strong", "i", "em", "u", "s", "li", "ul", "ol", "mark", "code", "blockquote", "pre", "img", "#text"]`
 - The image src should only be from `["api.wasteof.money", "u.cubeupload.com", "i.ibb.co"]`
+- `#text` is the content inside an element and it is also a [shadow DOM element](https://web.dev/shadowdom-v1/)
 
 Optional:
 - Adding in a `repost` argument, followed with a post id allows you to repost posts
