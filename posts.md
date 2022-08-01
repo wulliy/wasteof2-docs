@@ -35,7 +35,7 @@ Deletes any post of yours.
 
 Deletes any comment in a post of yours.
 
-`DELETE /comments/60c4d33f1ea77fed94251ab7/`
+`DELETE /comments/60c4d33f1ea77fed94251ab7`
 
 Pins any post of yours.
 
