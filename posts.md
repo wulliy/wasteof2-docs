@@ -19,6 +19,7 @@ Requirements:
 
 Optional:
 - Adding in a `repost` argument, followed with a post id allows you to repost posts
+- If you want to mention a user, it has to be nested within `<p>` tags
 
 `POST /posts`
 
