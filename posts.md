@@ -53,7 +53,7 @@ POST /posts/612b7b3f1148ae87a61ab063/report
 BODY {type: "none", reason: "they took my lunch money"}
 ```
 
-Loves / Unloves any post on wasteof2.
+Loves / unloves any post.
 
 `POST /posts/612b7b3f1148ae87a61ab063/love`
 
