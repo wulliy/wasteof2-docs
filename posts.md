@@ -55,7 +55,7 @@ BODY {type: "none", reason: "they took my lunch money"}
 
 Loves / unloves any post.
 
-`POST /posts/612b7b3f1148ae87a61ab063/love`
+`POST /posts/612b7b3f1148ae87a61ab063/loves`
 
 See if an user loved a post or not.
 
