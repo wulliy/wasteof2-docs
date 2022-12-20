@@ -1,4 +1,4 @@
-Get the username from an user's ID.
+Get the username from a user's ID.
 
 `GET /username-from-id/60c4976b59c722b5661559c4`
 
