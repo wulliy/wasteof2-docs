@@ -44,4 +44,7 @@ Sets a recovery email for your account. If one has already been set, you can cha
 
 Sends an email to reset a user's password
 
-`POST /settings/password-reset`
+```
+POST /settings/password-reset
+BODY {"username": "jeffalo"}
+```
