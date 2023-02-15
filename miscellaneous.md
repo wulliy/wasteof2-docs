@@ -5,3 +5,7 @@ Get the username from a user's ID.
 Sees if a username is available or not.
 
 `GET /username-available?username=jeffalo`
+
+Gets a random post on the site.
+
+`GET /random-post`
