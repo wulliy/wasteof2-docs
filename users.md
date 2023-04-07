@@ -17,10 +17,12 @@ See if a user is following another user.
 Gets a user's profile picture. (If the user doesn't exist, it will return a generated SVG profile picture instead)
 
 `GET /users/jeffalo/picture`
+`GET /users/jeffalo/picture?optimized=true`
 
 Gets a user's banner. (Appears blank if no banner was set)
 
 `GET /users/wasteof.money/banner`
+`GET /users/wasteof.money/banner?optimized=true`
 
 Gets a user's posts per page.
 
