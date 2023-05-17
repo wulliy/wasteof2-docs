@@ -1,19 +1,41 @@
-Gets all of your read messages.
+# messages
+> TOKEN: your user(bot) token.<br/>MESSAGEIDS: an array of message ids. note that message ids are different than comment ids.
+### Get all of your read messages.
+```http
+GET /messages/read
+Authorization: TOKEN
+```
 
-`GET /messages/read`
+### Get all of your unread messages.
 
-Gets all of your unread messages.
+```http
+GET /messages/unread
+Authorization: TOKEN
+```
 
-`GET /messages/unread`
+### Get your total message count.
 
-Gets your total message count.
+```http
+GET /messages/count
+Authorization: TOKEN
+```
 
-`GET /messages/count`
+### Mark message(s) as read.
 
-Marks a message as read.
+```http
+POST /messages/mark/read
+Authorization: TOKEN
+Content-Type: application/json
 
-`POST /messages/mark/read`
+{ "messages": MESSAGEIDS }
+```
 
-Marks a message as unread.
+### Mark message(s) as unread.
 
-`POST /messages/mark/unread`
+```http
+POST /messages/mark/unread
+Authorization: TOKEN
+Content-Type: application/json
+
+{ "messages": MESSAGEIDS }
+```
